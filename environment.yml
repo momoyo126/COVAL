@@ -1,0 +1,14 @@
+name: coval
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=2.4.0
+  - pytorch-cuda=12.1
+  - pip
+  - ninja
+  - google-sparsehash
+  - pip:
+      - -r requirements.txt
